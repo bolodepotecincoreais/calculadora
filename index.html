@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>Calculadora 2</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
 </head>
 <body>
-    <h1>CALCULADORA 2</h1>
-<!--aqui eu coloquei um form (formulario html)-->
-    <form>
-    <label>Número 1: </label><br>
-    <input type="number" id="numberid" name="numero1"><br>
-    <label>Número 2:</label><br>
+   <h1>Calculadora</h1> 
+<!--aqui um form (formulario html)--> 
+<form>
+    <label>Numero 1:</label><br>
+    <input type="number" id="numero1" name="numero1"><br>
+    <label>Numero 2:</label><br>
     <input type="number" id="numero2" name="numero2"><br><br>
-    <button type="button" onclick="calcula()">Calcular</button></form><br>
+    <button type="button" onclick="calcula()">Calcular</button>
+  </form><br>
+  
+  <p>Resultado:</p>
+  <h2 id="resultado">...</h2>
 
-    <p>Resultado</p>
-    <h2 id="resultado">...</h2>
-
-    <button type="submit" onclick="calcula()">testar js</button>
-    <script src="script.js"></script>
+   <button type="submit" onclick="calcula()">testar js</button>
+   <script src="script.js"></script>
 </body>
 </html>
